@@ -29,3 +29,9 @@
     background-color: orange;
     border: 2px solid black;
 }
+
+.debug .card {
+    background-color: violet;
+    min-height: 20px; 
+    min-width: 100px;
+}
