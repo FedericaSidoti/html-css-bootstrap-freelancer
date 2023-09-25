@@ -10,6 +10,14 @@
     background-color: var(--blue);
 }
 
+.bg-light-blue {
+    background-color: var(--light-blue);
+}
+
+.bg-green{
+    background-color: var(--green);
+}
+
 /*Debug*/
 
 .debug .container-lg, .debug .container-lg {
