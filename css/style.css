@@ -9,3 +9,23 @@
 .bg-blue {
     background-color: var(--blue);
 }
+
+/*Debug*/
+
+.debug .container-lg, .debug .container-lg {
+    min-height: 30px; 
+    background-color: aquamarine;
+    border: 2px solid blue; 
+}
+
+.debug .row {
+    min-height: 30px; 
+    background-color: red;
+    border: 2px solid white; 
+}
+
+.debug *[class^='col'] {
+    min-height: 30px;
+    background-color: orange;
+    border: 2px solid black;
+}
