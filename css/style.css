@@ -44,7 +44,7 @@
     margin-right: 8px;
 }
 
-.card-section .star::before, .card-section .star::after {
+.card-section .star::before, .card-section .star::after, .contact .star::before, .contact .star::after {
     background-color: black;
 }
 
