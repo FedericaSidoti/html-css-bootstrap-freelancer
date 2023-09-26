@@ -29,7 +29,7 @@
 .star::after {
     content: ""; 
     width: 100px; 
-    height: 4px; 
+    height: 2px; 
     background-color: white;
     display: inline-block; 
     margin-left: 8px; 
@@ -38,11 +38,16 @@
 .star::before {
     content: ""; 
     width: 100px; 
-    height: 4px; 
+    height: 2px; 
     background-color: white;
     display: inline-block; 
     margin-right: 8px;
 }
+
+.card-section .star::before, .card-section .star::after {
+    background-color: black;
+}
+
 /*Debug*/
 
 .debug .container-lg, .debug .container-lg {
