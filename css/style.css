@@ -18,6 +18,31 @@
     background-color: var(--green);
 }
 
+.img-sized {
+    width: 210px; 
+}
+
+.star {
+    padding: 10px; 
+}
+
+.star::after {
+    content: ""; 
+    width: 100px; 
+    height: 4px; 
+    background-color: white;
+    display: inline-block; 
+    margin-left: 8px; 
+}
+
+.star::before {
+    content: ""; 
+    width: 100px; 
+    height: 4px; 
+    background-color: white;
+    display: inline-block; 
+    margin-right: 8px;
+}
 /*Debug*/
 
 .debug .container-lg, .debug .container-lg {
